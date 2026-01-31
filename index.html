@@ -16,7 +16,15 @@
             return <h1 className="heading">Belajar React bareng Pak Dhika</h1>;
         }
 
-        root.render(<Header />);
+        function HomePage() {
+            return (
+                <div>
+                    <Header />
+                </div>
+            );
+        }
+
+        root.render(<HomePage />);
     </script>
 </body>
 </html>
