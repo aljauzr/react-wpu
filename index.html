@@ -17,10 +17,15 @@
         }
 
         function HomePage() {
+            const students = ["Dhika", "Joji", "Erik"];
             return (
                 <div>
-                    <Header />
                     <Header author="WPU" />
+                    <ul>
+                        {students.map((student) => (
+                            <li>{student}</li>
+                        ))}
+                    </ul>
                 </div>
             );
         }
