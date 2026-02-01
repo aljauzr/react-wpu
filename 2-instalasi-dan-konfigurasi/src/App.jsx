@@ -1,8 +1,5 @@
 import { useState } from 'react'
-
-function Header({author}) {
-    return <h1 className="heading">Belajar React bareng {author ? author: "Pa Dhika"}</h1>;
-}
+import Header from './components/Header.jsx'
 
 function App() {
   const students = ["Dhika", "Joji", "Erik"];
